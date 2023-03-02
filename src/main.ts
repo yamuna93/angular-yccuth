@@ -7,7 +7,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
-  template: 'main.html',
+  templateUrl: 'main.html',
 })
 export class App {
   name = 'Angular';
